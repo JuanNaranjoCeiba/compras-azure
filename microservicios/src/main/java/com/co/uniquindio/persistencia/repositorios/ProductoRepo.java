@@ -1,0 +1,10 @@
+package com.co.uniquindio.persistencia.repositorios;
+
+import com.co.uniquindio.persistencia.entidades.Producto;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProductoRepo extends JpaRepository<Producto, Integer> {
+
+}
